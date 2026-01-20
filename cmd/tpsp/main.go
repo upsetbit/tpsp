@@ -126,7 +126,7 @@ func normalizeStatus(status string) string {
 
 func fetchLineStatuses() (*APIResponse, error) {
 	client := &http.Client{
-		Timeout: 10 * time.Second,
+		Timeout: 30 * time.Second,
 	}
 
 	resp, err := client.Get(apiURL)
