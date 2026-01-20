@@ -1,0 +1,9 @@
+.git
+.github
+bin
+docs
+*.md
+LICENSE
+Makefile
+.goreleaser.yaml
+.gitignore
